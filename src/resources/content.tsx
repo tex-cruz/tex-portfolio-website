@@ -198,7 +198,7 @@ const about: About = {
       {
         title: "Adobe Photoshop",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Able to seamlessly composite imagery, manipulate pixels, and bring complex visual concepts to life.</>
         ),
         tags: [
           {
@@ -219,7 +219,7 @@ const about: About = {
       {
         title: "Adobe Illustrator",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Able to craft scalable vector graphics, clean iconography, and striking logos from scratch.</>
         ),
         tags: [
           {
@@ -240,7 +240,7 @@ const about: About = {
       {
         title: "Blender",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Able to model, texture, and render immersive 3D environments and digital assets.</>
         ),
         tags: [
           {
