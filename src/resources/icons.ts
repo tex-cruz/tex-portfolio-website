@@ -27,6 +27,7 @@ import {
   SiNextdotjs,
   SiFigma,
   SiSupabase,
+  SiFivem,
 } from "react-icons/si";
 
 import { TbBrandAdobeIllustrator, TbBrandAdobePhotoshop, TbBrandBlender } from "react-icons/tb";
