@@ -91,9 +91,10 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Detail-oriented IT student seeking an internship or entry-level role. 
-        Combines technical skills in web development, UI/UX, and graphic design with 
-        strong organizational and problem-solving experience gained from business operations.
+        I am a self-taught graphic artist and digital creator, currently fusing the worlds of design and 
+        technology as a student of both Industrial Engineering and Information Technology. 
+        By combining an engineer’s logic with a designer’s eye, I build digital experiences that are 
+        structurally sound, visually striking, and optimized for performance.
       </>
     ),
   },
