@@ -8,7 +8,7 @@ const person: Person = {
   role: "Graphic Designer",
   avatar: "/images/avatar.jpg",
   email: "tex.business.contact@gmail.com",
-  location: "Asia/Philippines", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Singapore", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Tagalog"], // optional: Leave the array empty if you don't want to display languages
   locale: "en", // BCP 47 language tag for the HTML lang attribute, e.g., 'en', 'ja', 'zh-TW'
 };
@@ -26,27 +26,27 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/tex-cruz",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/tyrone-cruz-b682a4415/",
     essential: true,
   },
   {
     name: "Instagram",
     icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
+    link: "https://www.instagram.com/visuals.by.tex/",
     essential: false,
   },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-    essential: true,
-  },
+  // {
+  //   name: "Threads",
+  //   icon: "threads",
+  //   link: "https://www.threads.com/@once_ui",
+  //   essential: true,
+  // },
   {
     name: "Email",
     icon: "email",
@@ -115,41 +115,27 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Fivescripts",
+        timeframe: "2023 - Present",
+        role: "Project Manager",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Managed and coordinated custom commissioned UI/UX and scripting projects
+            by organizing client requirements, assigning tasks, and ensuring timely delivery
+            of completed outputs.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Chéri",
+        timeframe: "2023 - 2025",
+        role: "Sales and Operations Assistant",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Assisted in selling products during bazaars, handling customer transactions,
+            and supporting on-site sales operations to ensure smooth booth activity and
+            customer engagement.
           </>,
         ],
         images: [],
@@ -161,12 +147,20 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Infotech College of Arts and Sciences",
+        description: <>Currently pursuing a degree in Information Technology with a focus on web
+        development, software applications, database management, and information
+        systems.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Universal College",
+        description: <>Completed coursework in process improvement, operations management,
+        systems analysis, quality control, and project management.</>,
+      },
+      {
+        name: "St. Andrews School",
+        description: <>Developed a strong foundation in analytical thinking, problem-solving, and
+        technology-related concepts through the STEM curriculum.</>,
       },
     ],
   },
@@ -187,47 +181,47 @@ const about: About = {
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-02.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+          // {
+          //   src: "/images/projects/project-01/cover-03.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
-        title: "Next.js",
+        title: "Adobe Photoshop",
         description: (
           <>Building next gen apps with Next.js + Once UI + Supabase.</>
         ),
-        tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
-        ],
+        // tags: [
+        //   {
+        //     name: "JavaScript",
+        //     icon: "javascript",
+        //   },
+        //   {
+        //     name: "Next.js",
+        //     icon: "nextjs",
+        //   },
+        //   {
+        //     name: "Supabase",
+        //     icon: "supabase",
+        //   },
+        // ],
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
     ],
