@@ -140,6 +140,18 @@ const about: About = {
         ],
         images: [],
       },
+      {
+        company: "Philippine Councilors League",
+        timeframe: "2020 - 2021",
+        role: "Encoder",
+        achievements: [
+          <>
+            Managed high-volume participant registration and maintained data integrity through 
+            precise entry of delegate records during league conventions.
+          </>,
+        ],
+        images: [],
+      },
     ],
   },
   studies: {
