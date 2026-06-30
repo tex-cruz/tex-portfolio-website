@@ -35,18 +35,6 @@ const social: Social = [
     link: "https://www.linkedin.com/in/tyrone-cruz-b682a4415/",
     essential: true,
   },
-  // {
-  //   name: "Instagram",
-  //   icon: "instagram",
-  //   link: "https://www.instagram.com/visuals.by.tex/",
-  //   essential: false,
-  // },
-  // {
-  //   name: "Threads",
-  //   icon: "threads",
-  //   link: "https://www.threads.com/@once_ui",
-  //   essential: true,
-  // },
   {
     name: "Email",
     icon: "email",
@@ -194,12 +182,6 @@ const about: About = {
         images: [
           // {
           //   src: "/images/projects/project-01/cover-02.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
-          // {
-          //   src: "/images/projects/project-01/cover-03.jpg",
           //   alt: "Project image",
           //   width: 16,
           //   height: 9,
