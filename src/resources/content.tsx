@@ -203,7 +203,7 @@ const about: About = {
         tags: [
           {
             name: "Photoshop",
-            icon: "photoshop",
+            icon: "brandadobephotoshop",
           },
         ],
         // optional: leave the array empty if you don't want to display images
@@ -224,7 +224,7 @@ const about: About = {
         tags: [
           {
             name: "Illustrator",
-            icon: "illustrator",
+            icon: "brandadobellustrator",
           },
         ],
         // optional: leave the array empty if you don't want to display images
@@ -245,7 +245,7 @@ const about: About = {
         tags: [
           {
             name: "Blender",
-            icon: "blender",
+            icon: "brandblender",
           },
         ],
         // optional: leave the array empty if you don't want to display images
