@@ -15,8 +15,8 @@ const person: Person = {
 
 const newsletter: Newsletter = {
   display: true,
-  title: <>Turn Ideas into Reality</>,
-  description: <>Lets work together</>,
+  title: <>Got an Idea? Let's Shape It.</>,
+  description: <>Whether it's a sleek brand identity or a dynamic web interface, I'm ready to collaborate.</>,
 };
 
 const social: Social = [
