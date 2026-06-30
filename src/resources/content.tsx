@@ -5,7 +5,7 @@ const person: Person = {
   firstName: "Tyrone ",
   lastName: "Cruz",
   name: `Tyrone Cruz`,
-  role: "Graphic Designer",
+  role: "Freelancer/Self Employed",
   avatar: "/images/avatar.jpg",
   email: "tex.business.contact@gmail.com",
   location: "Asia/Manila", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -35,12 +35,12 @@ const social: Social = [
     link: "https://www.linkedin.com/in/tyrone-cruz-b682a4415/",
     essential: true,
   },
-  {
-    name: "Instagram",
-    icon: "instagram",
-    link: "https://www.instagram.com/visuals.by.tex/",
-    essential: false,
-  },
+  // {
+  //   name: "Instagram",
+  //   icon: "instagram",
+  //   link: "https://www.instagram.com/visuals.by.tex/",
+  //   essential: false,
+  // },
   // {
   //   name: "Threads",
   //   icon: "threads",
@@ -104,9 +104,11 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        {person.firstName} is a {person.location.split("/")[1]?.replace("_", " ")}-based {person.role.toLowerCase()} with a passion for transforming complex challenges
-        into simple, elegant design solutions. Their work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Motivated and detail-oriented aspiring IT professional seeking internship or entry-level
+        opportunities in the Information Technology field. Possesses experience in web development,
+        UI/UX design, graphic design, and business operations. Demonstrates strong organizational,
+        communication, and problem-solving skills through work experience in data encoding,
+        cashiering, event registration, and small business management.
       </>
     ),
   },
@@ -153,7 +155,7 @@ const about: About = {
         systems.</>,
       },
       {
-        name: "Universal College",
+        name: "Universal College of Paranaque",
         description: <>Completed coursework in process improvement, operations management,
         systems analysis, quality control, and project management.</>,
       },
