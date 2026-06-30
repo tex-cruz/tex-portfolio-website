@@ -104,11 +104,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Motivated and detail-oriented aspiring IT professional seeking internship or entry-level
-        opportunities in the Information Technology field. Possesses experience in web development,
-        UI/UX design, graphic design, and business operations. Demonstrates strong organizational,
-        communication, and problem-solving skills through work experience in data encoding,
-        cashiering, event registration, and small business management.
+        Detail-oriented IT student seeking an internship or entry-level role. 
+        Combines technical skills in web development, UI/UX, and graphic design with 
+        strong organizational and problem-solving experience gained from business operations.
       </>
     ),
   },
