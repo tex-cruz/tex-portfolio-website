@@ -29,6 +29,8 @@ import {
   SiSupabase,
 } from "react-icons/si";
 
+import { TbBrandAdobeIllustrator, TbBrandAdobePhotoshop, TbBrandBlender } from "react-icons/tb";
+
 import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
