@@ -200,20 +200,54 @@ const about: About = {
         description: (
           <>Building next gen apps with Next.js + Once UI + Supabase.</>
         ),
-        // tags: [
-        //   {
-        //     name: "JavaScript",
-        //     icon: "javascript",
-        //   },
-        //   {
-        //     name: "Next.js",
-        //     icon: "nextjs",
-        //   },
-        //   {
-        //     name: "Supabase",
-        //     icon: "supabase",
-        //   },
-        // ],
+        tags: [
+          {
+            name: "Photoshop",
+            icon: "photoshop",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },
+      {
+        title: "Adobe Illustrator",
+        description: (
+          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+        ),
+        tags: [
+          {
+            name: "Illustrator",
+            icon: "illustrator",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },
+      {
+        title: "Blender",
+        description: (
+          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+        ),
+        tags: [
+          {
+            name: "Blender",
+            icon: "blender",
+          },
+        ],
         // optional: leave the array empty if you don't want to display images
         images: [
           // {
