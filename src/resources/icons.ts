@@ -67,6 +67,9 @@ export const iconLibrary: Record<string, IconType> = {
   reddit: FaReddit,
   telegram: FaTelegram,
   instagram: FaInstagram,
+  photoshop: TbBrandAdobePhotoshop,
+  illustrator: TbBrandAdobeIllustrator,
+  blender: TbBrandBlender
 };
 
 export type IconLibrary = typeof iconLibrary;
